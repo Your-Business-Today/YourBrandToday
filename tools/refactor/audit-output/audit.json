@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-27T20:06:56+00:00",
-  "kitVersion": "1.12.0",
+  "generatedAt": "2026-10-25T10:40:00+00:00",
+  "kitVersion": "1.35.0",
   "score": {
-    "overall": 89.8,
+    "overall": 91.0,
     "groups": [
       {
         "group": "Standard baseline checks",
-        "score": 93.4,
+        "score": 95.6,
         "weight": 52
       },
       {
@@ -110,9 +110,9 @@
         "zeroAt": 20,
         "unit": "thousand lines",
         "isMeasured": true,
-        "offenders": 24,
+        "offenders": 5,
         "measuredAgainst": 8.62,
-        "score": 86.1
+        "score": 97.1
       },
       {
         "key": "orphans",
@@ -134,9 +134,9 @@
         "zeroAt": 30,
         "unit": "thousand lines",
         "isMeasured": true,
-        "offenders": 148,
+        "offenders": 103,
         "measuredAgainst": 8.62,
-        "score": 42.8
+        "score": 60.2
       },
       {
         "key": "deepIndentation",
@@ -288,10 +288,10 @@
     "magicValues": {
       "inlineHexColours": 4,
       "inlineStyleAttributes": 1,
-      "repeatedStringLiterals": 19
+      "repeatedStringLiterals": 0
     },
     "prose": {
-      "longMemberChainLines": 148,
+      "longMemberChainLines": 103,
       "deeplyIndentedLines": 21,
       "overlongLines": 60,
       "measurementIsHeuristic": true
@@ -330,10 +330,16 @@
       "looserLimits": 0
     },
     "fileAreas": {
-      "totalFiles": 95,
-      "tooling": 80,
-      "docs": 13,
-      "infrastructure": 2
+      "totalFiles": 430,
+      "tooling": 100,
+      "backend": 92,
+      "frontend": 85,
+      "shared": 59,
+      "api": 34,
+      "tests": 23,
+      "docs": 22,
+      "infrastructure": 11,
+      "database": 4
     }
   },
   "details": {
@@ -425,7 +431,7 @@
       "summary": {
         "inlineHexColours": 4,
         "inlineStyleAttributes": 1,
-        "repeatedStringLiterals": 19
+        "repeatedStringLiterals": 0
       },
       "offenders": {
         "hexColours": [
@@ -452,90 +458,13 @@
             "line": 7
           }
         ],
-        "repeatedLiterals": [
-          {
-            "literal": "submit",
-            "occurrences": 17
-          },
-          {
-            "literal": "flex flex-col gap-1",
-            "occurrences": 11
-          },
-          {
-            "literal": "font-display text-xl font-medium",
-            "occurrences": 11
-          },
-          {
-            "literal": "font-display text-3xl font-medium",
-            "occurrences": 11
-          },
-          {
-            "literal": "hidden",
-            "occurrences": 10
-          },
-          {
-            "literal": "button",
-            "occurrences": 10
-          },
-          {
-            "literal": "flex flex-col gap-2",
-            "occurrences": 10
-          },
-          {
-            "literal": "text-sm text-chalk/70",
-            "occurrences": 9
-          },
-          {
-            "literal": "text-sm text-chalk/60",
-            "occurrences": 9
-          },
-          {
-            "literal": "font-display text-lg font-medium",
-            "occurrences": 8
-          },
-          {
-            "literal": "text-chalk/70",
-            "occurrences": 8
-          },
-          {
-            "literal": "p-3 text-right font-normal",
-            "occurrences": 6
-          },
-          {
-            "literal": "p-3 text-right",
-            "occurrences": 6
-          },
-          {
-            "literal": "flex flex-col gap-4",
-            "occurrences": 5
-          },
-          {
-            "literal": "password",
-            "occurrences": 5
-          },
-          {
-            "literal": "text-xs text-chalk/50",
-            "occurrences": 5
-          },
-          {
-            "literal": "flex flex-wrap items-center gap-3",
-            "occurrences": 4
-          },
-          {
-            "literal": "status",
-            "occurrences": 4
-          },
-          {
-            "literal": "description",
-            "occurrences": 4
-          }
-        ]
+        "repeatedLiterals": []
       }
     },
     "prose": {
       "name": "prose",
       "summary": {
-        "longMemberChainLines": 148,
+        "longMemberChainLines": 103,
         "deeplyIndentedLines": 21,
         "overlongLines": 60,
         "measurementIsHeuristic": true
@@ -579,70 +508,6 @@
             "line": 38
           },
           {
-            "file": "src/lib/brand/decisions/checkDecision.test.ts",
-            "line": 10
-          },
-          {
-            "file": "src/lib/brand/decisions/checkDecision.test.ts",
-            "line": 11
-          },
-          {
-            "file": "src/lib/brand/decisions/checkDecision.test.ts",
-            "line": 16
-          },
-          {
-            "file": "src/lib/brand/decisions/checkDecision.test.ts",
-            "line": 17
-          },
-          {
-            "file": "src/lib/brand/decisions/checkDecision.test.ts",
-            "line": 22
-          },
-          {
-            "file": "src/lib/brand/decisions/checkDecision.test.ts",
-            "line": 23
-          },
-          {
-            "file": "src/lib/brand/decisions/checkDecision.test.ts",
-            "line": 28
-          },
-          {
-            "file": "src/lib/brand/decisions/checkDecision.test.ts",
-            "line": 44
-          },
-          {
-            "file": "src/lib/brand/mediums/channelMediums.ts",
-            "line": 8
-          },
-          {
-            "file": "src/lib/brand/mediums/channelMediums.ts",
-            "line": 12
-          },
-          {
-            "file": "src/lib/brand/mediums/channelMediums.ts",
-            "line": 13
-          },
-          {
-            "file": "src/lib/brand/mediums/channelMediums.ts",
-            "line": 15
-          },
-          {
-            "file": "src/lib/brand/mediums/channelMediums.ts",
-            "line": 17
-          },
-          {
-            "file": "src/lib/brand/mediums/channelMediums.ts",
-            "line": 18
-          },
-          {
-            "file": "src/lib/brand/mediums/channelMediums.ts",
-            "line": 22
-          },
-          {
-            "file": "src/lib/brand/mediums/channelMediums.ts",
-            "line": 23
-          },
-          {
             "file": "src/lib/brand/projections/brandBrief.ts",
             "line": 10
           },
@@ -671,76 +536,140 @@
             "line": 13
           },
           {
-            "file": "src/lib/brand/projections/projections.test.ts",
+            "file": "src/lib/brand/resolution/resolveBrand.ts",
+            "line": 20
+          },
+          {
+            "file": "src/lib/brand/resolution/resolveReferences.ts",
             "line": 11
           },
           {
-            "file": "src/lib/brand/projections/projections.test.ts",
+            "file": "src/lib/brand/resolution/resolveReferences.ts",
             "line": 15
           },
           {
-            "file": "src/lib/brand/projections/projections.test.ts",
-            "line": 19
+            "file": "src/lib/brand/resolution/resolvedBrand.ts",
+            "line": 20
           },
           {
-            "file": "src/lib/brand/resolution/resolveBrand.test.ts",
-            "line": 12
-          },
-          {
-            "file": "src/lib/brand/resolution/resolveBrand.test.ts",
-            "line": 13
-          },
-          {
-            "file": "src/lib/brand/resolution/resolveBrand.test.ts",
+            "file": "src/lib/client/formTracker.svelte.ts",
             "line": 14
           },
           {
-            "file": "src/lib/brand/resolution/resolveBrand.test.ts",
-            "line": 15
-          },
-          {
-            "file": "src/lib/brand/resolution/resolveBrand.test.ts",
-            "line": 21
-          },
-          {
-            "file": "src/lib/brand/resolution/resolveBrand.test.ts",
+            "file": "src/lib/server/brands/brandOverview.ts",
             "line": 22
           },
           {
-            "file": "src/lib/brand/resolution/resolveBrand.test.ts",
-            "line": 23
-          },
-          {
-            "file": "src/lib/brand/resolution/resolveBrand.test.ts",
+            "file": "src/lib/server/brands/brandOverview.ts",
             "line": 24
           },
           {
-            "file": "src/lib/brand/resolution/resolveBrand.test.ts",
-            "line": 28
+            "file": "src/lib/server/brands/recordDecision.ts",
+            "line": 25
           },
           {
-            "file": "src/lib/brand/resolution/resolveBrand.test.ts",
-            "line": 29
+            "file": "src/lib/server/http/reportServerError.ts",
+            "line": 13
           },
           {
-            "file": "src/lib/brand/resolution/resolveBrand.test.ts",
+            "file": "src/lib/server/http/reportServerError.ts",
+            "line": 14
+          },
+          {
+            "file": "src/lib/server/http/reportServerError.ts",
+            "line": 15
+          },
+          {
+            "file": "src/lib/server/http/reportServerError.ts",
+            "line": 16
+          },
+          {
+            "file": "src/lib/server/input/readPublicUrl.ts",
+            "line": 12
+          },
+          {
+            "file": "src/lib/server/mcp/actionRegistry.test.ts",
+            "line": 19
+          },
+          {
+            "file": "src/lib/server/mcp/actionRegistry.test.ts",
+            "line": 21
+          },
+          {
+            "file": "src/lib/server/mcp/actions/campaignActions.ts",
+            "line": 38
+          },
+          {
+            "file": "src/lib/server/mcp/actions/describeContentPiece.ts",
+            "line": 18
+          },
+          {
+            "file": "src/lib/server/mcp/mcpMethods.ts",
+            "line": 22
+          },
+          {
+            "file": "src/lib/server/mcp/mcpMethods.ts",
+            "line": 49
+          },
+          {
+            "file": "src/lib/server/mcp/mcpMethods.ts",
+            "line": 51
+          },
+          {
+            "file": "src/lib/server/mcp/mcpMethods.ts",
+            "line": 53
+          },
+          {
+            "file": "src/routes/account/+page.server.ts",
+            "line": 17
+          },
+          {
+            "file": "src/routes/auth/callback/+server.ts",
+            "line": 10
+          },
+          {
+            "file": "src/routes/brands/[brandId]/+page.server.ts",
+            "line": 26
+          },
+          {
+            "file": "src/routes/brands/[brandId]/+page.server.ts",
+            "line": 35
+          },
+          {
+            "file": "src/routes/brands/[brandId]/campaigns/+page.server.ts",
+            "line": 24
+          },
+          {
+            "file": "src/routes/brands/[brandId]/campaigns/+page.server.ts",
+            "line": 32
+          },
+          {
+            "file": "src/routes/brands/[brandId]/campaigns/+page.server.ts",
+            "line": 40
+          },
+          {
+            "file": "src/routes/brands/[brandId]/content/[contentId]/+page.server.ts",
+            "line": 25
+          },
+          {
+            "file": "src/routes/brands/[brandId]/content/[contentId]/+page.server.ts",
             "line": 34
           },
           {
-            "file": "src/lib/brand/resolution/resolveBrand.test.ts",
+            "file": "src/routes/brands/[brandId]/kit/+page.server.ts",
+            "line": 33
+          },
+          {
+            "file": "src/routes/brands/[brandId]/kit/+page.server.ts",
             "line": 36
           },
           {
-            "file": "src/lib/brand/resolution/resolveBrand.test.ts",
-            "line": 41
+            "file": "src/routes/brands/[brandId]/kit/+page.server.ts",
+            "line": 48
           },
           {
-            "file": "src/lib/brand/resolution/resolveBrand.test.ts",
-            "line": 50
-          },
-          {
-            "file": "src/lib/brand/resolution/resolveBrand.test.ts",
-            "line": 51
+            "file": "src/routes/brands/[brandId]/kit/+page.server.ts",
+            "line": 55
           }
         ],
         "deepIndentation": [
@@ -1267,11 +1196,7 @@
           {
             "pattern": "every +page.svelte has a +page.server.ts",
             "predicted": 17,
-            "missing": [
-              "src/routes/+page.server.ts",
-              "src/routes/privacy/+page.server.ts",
-              "src/routes/terms/+page.server.ts"
-            ]
+            "missing": []
           }
         ],
         "missingPredictedFiles": [],
@@ -1635,33 +1560,76 @@
         "skipped": "no siteDefinition catalogue in rules.json"
       },
       "offenders": {
-        "handRolled": []
+        "handRolled": [],
+        "boxedWidgets": []
       }
     },
     "fileAreas": {
       "name": "fileAreas",
       "summary": {
-        "totalFiles": 95,
-        "tooling": 80,
-        "docs": 13,
-        "infrastructure": 2
+        "totalFiles": 430,
+        "tooling": 100,
+        "backend": 92,
+        "frontend": 85,
+        "shared": 59,
+        "api": 34,
+        "tests": 23,
+        "docs": 22,
+        "infrastructure": 11,
+        "database": 4
       },
       "offenders": [
         {
           "area": "tooling",
-          "files": 80,
+          "files": 100,
           "sourceFiles": 0,
           "sourceLines": 0
         },
         {
+          "area": "backend",
+          "files": 92,
+          "sourceFiles": 92,
+          "sourceLines": 2914
+        },
+        {
+          "area": "frontend",
+          "files": 85,
+          "sourceFiles": 81,
+          "sourceLines": 2558
+        },
+        {
+          "area": "shared",
+          "files": 59,
+          "sourceFiles": 58,
+          "sourceLines": 1382
+        },
+        {
+          "area": "api",
+          "files": 34,
+          "sourceFiles": 34,
+          "sourceLines": 1339
+        },
+        {
+          "area": "tests",
+          "files": 23,
+          "sourceFiles": 9,
+          "sourceLines": 425
+        },
+        {
           "area": "docs",
-          "files": 13,
+          "files": 22,
           "sourceFiles": 0,
           "sourceLines": 0
         },
         {
           "area": "infrastructure",
-          "files": 2,
+          "files": 11,
+          "sourceFiles": 0,
+          "sourceLines": 0
+        },
+        {
+          "area": "database",
+          "files": 4,
           "sourceFiles": 0,
           "sourceLines": 0
         }

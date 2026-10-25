@@ -200,7 +200,7 @@
     ],
     "minimumFamilySize": 4,
     "cooccurrenceThreshold": 0.75,
-    "fileCountBand": 2.0,
+    "fileCountBand": 3.0,
     "acceptedGaps": [
       "src/routes/+page.server.ts",
       "src/routes/privacy/+page.server.ts",
