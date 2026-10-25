@@ -1,6 +1,6 @@
 # Refactor audit
 
-Generated 2026-10-25 10:39 UTC.
+Generated 2026-10-25 18:37 UTC.
 
 ## Headline
 
@@ -40,16 +40,16 @@ Each element scores 100% with no offenders and falls in a straight line to 0% wh
 
 | Area | Files | Of which audited source | Source lines |
 | --- | --- | --- | --- |
-| tooling | 100 | 0 | 0 |
+| tooling | 101 | 0 | 0 |
 | backend | 92 | 92 | 2,914 |
 | frontend | 85 | 81 | 2,558 |
 | shared | 59 | 58 | 1,382 |
 | api | 34 | 34 | 1,339 |
 | tests | 23 | 9 | 425 |
 | docs | 22 | 0 | 0 |
-| infrastructure | 11 | 0 | 0 |
+| infrastructure | 12 | 0 | 0 |
 | database | 4 | 0 | 0 |
-| **whole repository** | **430** | **274** | **8,618** |
+| **whole repository** | **432** | **274** | **8,618** |
 
 ## Summary
 
@@ -70,32 +70,32 @@ Each element scores 100% with no offenders and falls in a straight line to 0% wh
 | inventory | pages: 17, components: 56, orphanComponents: 0, averagePageLines: 33 |
 | siteDefinition | skipped: no siteDefinition catalogue in rules.json |
 | inputValidation | schemaTables: 14, limitedColumns: 0, writeDoors: 29, unvalidatedDoors: 4, looserLimits: 0 |
-| fileAreas | totalFiles: 430, tooling: 100, backend: 92, frontend: 85, shared: 59, api: 34, tests: 23, docs: 22, infrastructure: 11, database: 4 |
+| fileAreas | totalFiles: 432, tooling: 101, backend: 92, frontend: 85, shared: 59, api: 34, tests: 23, docs: 22, infrastructure: 12, database: 4 |
 
 ## Against the baseline
 
 | Ratcheted figure | Baseline | Now | Verdict |
 | --- | --- | --- | --- |
-| code quality score | 100.0% | 91.0% | — |
+| code quality score | 91.0% | 91.0% | — |
 | fileLength.filesOverLimit | 0 | 0 | held |
 | fileLength.worstFileLines | 0 | 0 | held |
 | functionShape.functionsOverLimit | 0 | 0 | held |
-| functionShape.elseBlocks | 0 | 1 | worse |
+| functionShape.elseBlocks | 1 | 1 | held |
 | duplication.duplicatedPercentage | None | None | — |
-| comments.explanatoryCommentLines | 0 | 25 | worse |
-| magicValues.inlineHexColours | 0 | 4 | worse |
+| comments.explanatoryCommentLines | 25 | 25 | held |
+| magicValues.inlineHexColours | 4 | 4 | held |
 | inventory.orphanComponents | 0 | 0 | held |
 | orphans.orphanFunctions | 0 | 0 | held |
-| prose.longMemberChainLines | 0 | 103 | worse |
-| prose.deeplyIndentedLines | 0 | 21 | worse |
+| prose.longMemberChainLines | 103 | 103 | held |
+| prose.deeplyIndentedLines | 21 | 21 | held |
 | functionNames.overlongFunctionNames | 0 | 0 | held |
-| accessorNames.gluedAccessorNames | 0 | 3 | worse |
-| conditions.tangledConditionLines | 0 | 19 | worse |
-| conditions.literalComparisonLines | 0 | 25 | worse |
+| accessorNames.gluedAccessorNames | 3 | 3 | held |
+| conditions.tangledConditionLines | 19 | 19 | held |
+| conditions.literalComparisonLines | 25 | 25 | held |
 | designPatterns.predictedFilesMissing | 0 | 0 | held |
 | siteDefinition.handRolledElements | None | None | — |
 | siteDefinition.boxedContentWidgets | None | None | — |
-| inputValidation.unvalidatedDoors | 0 | 4 | worse |
+| inputValidation.unvalidatedDoors | 4 | 4 | held |
 | inputValidation.looserLimits | 0 | 0 | held |
 
 ## Worst files by length

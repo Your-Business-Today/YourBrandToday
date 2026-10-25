@@ -1,6 +1,6 @@
 # Refactor audit
 
-Generated 2026-10-25 10:40 UTC.
+Generated 2026-10-25 18:37 UTC.
 
 ## Headline
 
@@ -40,16 +40,16 @@ Each element scores 100% with no offenders and falls in a straight line to 0% wh
 
 | Area | Files | Of which audited source | Source lines |
 | --- | --- | --- | --- |
-| tooling | 100 | 0 | 0 |
+| tooling | 101 | 0 | 0 |
 | backend | 92 | 92 | 2,914 |
 | frontend | 85 | 81 | 2,558 |
 | shared | 59 | 58 | 1,382 |
 | api | 34 | 34 | 1,339 |
 | tests | 23 | 9 | 425 |
 | docs | 22 | 0 | 0 |
-| infrastructure | 11 | 0 | 0 |
+| infrastructure | 12 | 0 | 0 |
 | database | 4 | 0 | 0 |
-| **whole repository** | **430** | **274** | **8,618** |
+| **whole repository** | **432** | **274** | **8,618** |
 
 ## Summary
 
@@ -59,7 +59,7 @@ Each element scores 100% with no offenders and falls in a straight line to 0% wh
 | functionShape | limit: 30, functionsOverLimit: 0, totalFunctions: 305, elseBlocks: 1, ifBlocks: 404, measurementIsHeuristic: True |
 | functionNames | overlongFunctionNames: 0, maxWords: 5, maxLength: 40 |
 | accessorNames | gluedAccessorNames: 3, measurementIsHeuristic: True |
-| duplication | skipped: jscpd is not installed (npm install -g jscpd), carriedFromBaseline: True |
+| duplication | skipped: jscpd is not installed (npm install -g jscpd) |
 | naming | bannedAbbreviationHits: 0, unprefixedBooleans: 1 |
 | comments | explanatoryCommentLines: 25, filesWithComments: 9, taskMarkers: 0 |
 | magicValues | inlineHexColours: 4, inlineStyleAttributes: 1, repeatedStringLiterals: 0 |
@@ -70,7 +70,7 @@ Each element scores 100% with no offenders and falls in a straight line to 0% wh
 | inventory | pages: 17, components: 56, orphanComponents: 0, averagePageLines: 33 |
 | siteDefinition | skipped: no siteDefinition catalogue in rules.json |
 | inputValidation | schemaTables: 14, limitedColumns: 0, writeDoors: 29, unvalidatedDoors: 4, looserLimits: 0 |
-| fileAreas | totalFiles: 430, tooling: 100, backend: 92, frontend: 85, shared: 59, api: 34, tests: 23, docs: 22, infrastructure: 11, database: 4 |
+| fileAreas | totalFiles: 432, tooling: 101, backend: 92, frontend: 85, shared: 59, api: 34, tests: 23, docs: 22, infrastructure: 12, database: 4 |
 
 ## Against the baseline
 
