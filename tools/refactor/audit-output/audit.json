@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-29T20:47:45+00:00",
-  "kitVersion": "1.37.0",
+  "generatedAt": "2026-11-01T10:20:51+00:00",
+  "kitVersion": "1.40.0",
   "score": {
-    "overall": 91.0,
+    "overall": 91.7,
     "groups": [
       {
         "group": "Standard baseline checks",
-        "score": 95.6,
-        "weight": 52
+        "score": 96.1,
+        "weight": 60
       },
       {
         "group": "Design pattern file count",
@@ -86,9 +86,10 @@
         "weight": 8,
         "zeroAt": 20,
         "unit": "",
-        "isMeasured": false,
-        "offenders": null,
-        "score": null
+        "isMeasured": true,
+        "offenders": 0.08,
+        "measuredAgainst": 1,
+        "score": 99.6
       },
       {
         "key": "comments",
@@ -273,7 +274,10 @@
       "measurementIsHeuristic": true
     },
     "duplication": {
-      "skipped": "jscpd is not installed (npm install -g jscpd)"
+      "clones": 1,
+      "duplicatedLines": 7,
+      "totalLines": 8473,
+      "duplicatedPercentage": 0.08
     },
     "naming": {
       "bannedAbbreviationHits": 0,
@@ -310,6 +314,7 @@
       "predictedFilesMissing": 0,
       "entities": 0,
       "entitiesOutOfRange": 0,
+      "entitiesAccepted": 0,
       "measurementIsHeuristic": true
     },
     "inventory": {
@@ -329,13 +334,13 @@
       "looserLimits": 0
     },
     "fileAreas": {
-      "totalFiles": 432,
-      "tooling": 101,
+      "totalFiles": 434,
+      "tooling": 102,
       "backend": 92,
       "frontend": 85,
       "shared": 59,
       "api": 34,
-      "tests": 23,
+      "tests": 24,
       "docs": 22,
       "infrastructure": 12,
       "database": 4
@@ -1167,6 +1172,7 @@
         "predictedFilesMissing": 0,
         "entities": 0,
         "entitiesOutOfRange": 0,
+        "entitiesAccepted": 0,
         "measurementIsHeuristic": true
       },
       "offenders": {
@@ -1566,13 +1572,13 @@
     "fileAreas": {
       "name": "fileAreas",
       "summary": {
-        "totalFiles": 432,
-        "tooling": 101,
+        "totalFiles": 434,
+        "tooling": 102,
         "backend": 92,
         "frontend": 85,
         "shared": 59,
         "api": 34,
-        "tests": 23,
+        "tests": 24,
         "docs": 22,
         "infrastructure": 12,
         "database": 4
@@ -1580,7 +1586,7 @@
       "offenders": [
         {
           "area": "tooling",
-          "files": 101,
+          "files": 102,
           "sourceFiles": 0,
           "sourceLines": 0
         },
@@ -1610,7 +1616,7 @@
         },
         {
           "area": "tests",
-          "files": 23,
+          "files": 24,
           "sourceFiles": 9,
           "sourceLines": 425
         },
@@ -1679,9 +1685,21 @@
     "duplication": {
       "name": "duplication",
       "summary": {
-        "skipped": "jscpd is not installed (npm install -g jscpd)"
+        "clones": 1,
+        "duplicatedLines": 7,
+        "totalLines": 8473,
+        "duplicatedPercentage": 0.08
       },
-      "offenders": []
+      "offenders": [
+        {
+          "file": "src/lib/components/brand/BrandPreview.svelte",
+          "duplicatedLineInstances": 7
+        },
+        {
+          "file": "src/lib/components/content/ContentPreview.svelte",
+          "duplicatedLineInstances": 7
+        }
+      ]
     }
   }
 }
