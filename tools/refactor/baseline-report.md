@@ -1,6 +1,6 @@
 # Refactor audit
 
-Generated 2026-11-05 22:10 UTC.
+Generated 2026-11-16 12:19 UTC.
 
 ## Headline
 
@@ -34,22 +34,22 @@ Generated 2026-11-05 22:10 UTC.
 | **Input validation** | | **72.4%** | **8** | |
 | Doors that write without checking their input against the columns | 4 in 29 write doors | 72.4% | 8 | 50% of write doors |
 
-Each element scores 100% with no offenders and falls in a straight line to 0% when its offenders, measured against the size of the codebase, reach the figure in the last column. The score is the weighted average of the elements that could be measured; an element that could not be measured lends its weight to the rest. Weights and zero points are set in `tools/refactor/rules.json` under `score.elements`. The offenders behind every reading are in `tools/refactor/audit-output/audit.json`.
+Each element scores 100% with no offenders and falls in a straight line to 0% when its offenders, measured against the size of the codebase, reach the figure in the last column. The score is the weighted average of the elements that could be measured; an element that could not be measured lends its weight to the rest. Weights and zero points are set in `tools/refactor/rules.json` under `score.elements`. The offenders behind every reading are in `tools/refactor/audit-output/audit.json` once the audit has run there; git ignores it.
 
 ## The repository by area
 
 | Area | Files | Of which audited source | Source lines |
 | --- | --- | --- | --- |
-| tooling | 103 | 0 | 0 |
+| tooling | 126 | 0 | 0 |
 | backend | 92 | 92 | 2,914 |
 | frontend | 85 | 81 | 2,558 |
 | shared | 59 | 58 | 1,382 |
 | api | 34 | 34 | 1,339 |
-| tests | 24 | 9 | 425 |
-| docs | 22 | 0 | 0 |
+| tests | 30 | 9 | 425 |
+| docs | 21 | 0 | 0 |
 | infrastructure | 12 | 0 | 0 |
 | database | 4 | 0 | 0 |
-| **whole repository** | **435** | **274** | **8,618** |
+| **whole repository** | **463** | **274** | **8,618** |
 
 ## Summary
 
@@ -70,7 +70,7 @@ Each element scores 100% with no offenders and falls in a straight line to 0% wh
 | inventory | pages: 17, components: 56, orphanComponents: 0, averagePageLines: 33 |
 | siteDefinition | skipped: no siteDefinition catalogue in rules.json |
 | inputValidation | schemaTables: 14, limitedColumns: 0, writeDoors: 29, unvalidatedDoors: 4, looserLimits: 0 |
-| fileAreas | totalFiles: 435, tooling: 103, backend: 92, frontend: 85, shared: 59, api: 34, tests: 24, docs: 22, infrastructure: 12, database: 4 |
+| fileAreas | totalFiles: 463, tooling: 126, backend: 92, frontend: 85, shared: 59, api: 34, tests: 30, docs: 21, infrastructure: 12, database: 4 |
 
 ## Against the baseline
 
